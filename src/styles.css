@@ -10,7 +10,6 @@ body {
 
 div {
   width: 100%;
-  margin: 20px;
 }
 
 div li {
@@ -36,4 +35,37 @@ button {
 div li button {
   margin: 0 15px;
   background: #ca4949;
+}
+
+.repository-techs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tech {
+  display: inline-block;
+  margin: 0 10px;
+  background: rgb(67, 218, 67);
+  padding: 4px 10px;
+}
+
+label {
+  font-size: 1.4rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.6rem;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background: #eee;
+  padding: 3rem 1rem;
+  margin-top: 1rem;
 }
